@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infinispan>
+    <jgroups>
+	<stack-file name="external-file" path="udp.xml"/>
+    </jgroups>
+    <cache-container>
+	<transport stack="external-file" />
+	<jmx duplicate-domains="true" />
+
+	<replicated-cache name="maptoUser"/>
+	<replicated-cache name="maptoDataSource"/>
+	<replicated-cache name="maptoReplicaSet"/>
+	<replicated-cache name="maptoDataSet"/>
+	<replicated-cache name="maptoMetadata"/>
+	<replicated-cache name="maptoImage"/>
+	<replicated-cache name="maptoUserID"/>
+	<replicated-cache name="maptoDataSourceID"/>
+	<replicated-cache name="metaOrder"/>
+    </cache-container>
+</infinispan>
+
