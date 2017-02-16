@@ -1,6 +1,7 @@
 # Project Overview
 
 This is my Google Summer of Code 2016 project. This original code is on [bitbucket](https://bitbucket.org/BMI/medicurator). 
+
 MediCurator is a medical image data manager. It allows user to fetch image data from heterogeneous data sources, access them in a uniform way, and build a local image database without near duplicate images.
 
 You can reach the document at http://medicurator.readthedocs.io/en/latest/ .
